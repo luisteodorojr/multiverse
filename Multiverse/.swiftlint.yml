@@ -5,14 +5,14 @@ excluded:
   - Pods
 
 opt_in_rules:
-  - anyobject_protocol
   - array_init
   - function_default_parameter_at_end
   - legacy_random
+  - empty_count
+
 
 disabled_rules:
   - trailing_whitespace
-  - cyclomatic_complexity
   - void_function_in_ternary
 
 force_cast: warning # Alerta para uso de `as!`
