@@ -75,7 +75,7 @@ class CharacterDetailTableViewCell: UITableViewCell {
             infoStackView.topAnchor.constraint(equalTo: cardView.topAnchor, constant: .defaultMargin),
             infoStackView.leadingAnchor.constraint(equalTo: cardView.leadingAnchor, constant: .defaultMargin),
             infoStackView.trailingAnchor.constraint(equalTo: cardView.trailingAnchor, constant: -.defaultMargin),
-            infoStackView.bottomAnchor.constraint(equalTo: cardView.bottomAnchor, constant: -.defaultMargin),
+            infoStackView.bottomAnchor.constraint(equalTo: cardView.bottomAnchor, constant: -.defaultMargin)
         ])
     }
     

@@ -18,6 +18,7 @@ class CharacterCoordinator: Coordinator {
     }
 
     func start() {
+        
         let viewModel = CharacterViewModel(service: MultiverseService())
         viewModel.coordinatorDelegate = self
         let viewController = CharacterViewController(viewModel: viewModel)
@@ -48,4 +49,3 @@ extension CharacterCoordinator: CoordinatorDelegate {
         stop()
     }
 }
-

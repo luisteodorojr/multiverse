@@ -47,7 +47,6 @@ class BaseViewController: UIViewController {
         ])
     }
     
-    
     func hideError() {
         errorView?.removeFromSuperview()
         errorView = nil

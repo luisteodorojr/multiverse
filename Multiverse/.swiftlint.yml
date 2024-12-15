@@ -1,123 +1,60 @@
-included: # paths to include during linting. `--path` is ignored if present.
+included:
   - ../
 
-excluded: # paths to ignore during linting. Takes precedence over `included`.
+excluded:
   - Pods
 
 opt_in_rules:
   - anyobject_protocol
   - array_init
-  # - attributes
-  # - closure_body_length
-  # - closure_end_indentation
-  # - closure_spacing
-  # - collection_alignment
-  # - discouraged_optional_boolean
-  # - empty_count
-  # - empty_string
-  # - empty_xctest_method
-  # - explicit_init
-  # - fallthrough
-  # - fatal_error_message
-  # - first_where
-  # - force_unwrapping
   - function_default_parameter_at_end
-  # - identical_operands
-  # - implicit_return
-  # - implicitly_unwrapped_optional
-  # - joined_default_parameter
   - legacy_random
-  # - let_var_whitespace
-  # - literal_expression_end_indentation
-  # - modifier_order
-  # - multiline_parameters
-  # - object_literal
-  # - operator_usage_whitespace
-  # - operator_whitespace
-  # - overridden_super_call
-  # - override_in_extension
-  # - private_action
-  # - prohibited_super_call
-  # - redundant_nil_coalescing
-  # - redundant_type_annotation
-  # - required_enum_case
-  # - single_test_class
-  # - sorted_first_last
-  # - static_operator
-  # - strict_fileprivate
-  # - toggle_bool
-  # - trailing_closure
-  # - unneeded_parentheses_in_closure_argument
-  # - untyped_error_in_catch
-  # - unused_import
-  # - unused_private_declaration
-  # - vertical_parameter_alignment_on_call
-  # - switch_case_on_newline
-  # - yoda_condition
 
 disabled_rules:
   - trailing_whitespace
   - cyclomatic_complexity
   - void_function_in_ternary
 
-force_cast: warning
+force_cast: warning # Alerta para uso de `as!`
+force_try: warning # Alerta para uso de `try!`
+empty_count: warning # Alerta para uso de `array.count == 0`
 
-force_try:
-  severity: warning
-
-empty_count:
-  severity: warning
-
-line_length: 140
+line_length: 180 # Máximo de caracteres por linha
 
 cyclomatic_complexity:
   warning: 15
   error: 40
 
 type_body_length:
-  - 300 # warning
-  - 400 # error
+  warning: 300
+  error: 400
 
 file_length:
   warning: 500
   error: 1200
 
 type_name:
-  min_length: 1 # only warning
-  max_length: # warning and error
+  min_length: 1
+  max_length:
     warning: 80
     error: 100
   excluded:
-  - iPhone # excluded via string
-  
+    - iPhone
+
 identifier_name:
-  min_length: # only min_length
-    error: 1 # only error
+  min_length:
     warning: 1
-  max_length: # warning and error
+    error: 1
+  max_length:
     warning: 60
     error: 100
-  excluded: # excluded via string array
+  excluded:
     - _id
-    - id
-    - qa
     - URL
     - Key
-    - iPadPro9_7Inch
-    - iPadPro10_5Inch
-    - iPadPro12_9Inch
-    - screen3_5Inch
-    - screen4_7Inch
-    - screen5_5Inch
-    - screen5_8Inch
-    - screen7_9Inch
-    - screen9_7Inch
-    - screen10_5Inch
-    - screen12_9Inch
-    - screen21_5Inch
 
 function_body_length:
-  warning: 60
+  warning: 100
   error: 100
 
-reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji)
+reporter: "xcode"

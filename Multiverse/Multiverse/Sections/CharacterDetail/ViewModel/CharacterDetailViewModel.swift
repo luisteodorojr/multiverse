@@ -48,7 +48,6 @@ final class CharacterDetailViewModel {
         selectEpisode(withID: id)
     }
 
-    
     func selectEpisode(withID episodeID: Int) {
         coordinatorDelegate?.didSelectEpisode(withID: episodeID)
     }

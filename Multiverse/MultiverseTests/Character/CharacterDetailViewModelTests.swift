@@ -64,7 +64,17 @@ final class CharacterDetailViewModelTests: XCTestCase {
     }
 
     func testGetEpisodeIDSuccess() {
-        let character = Character( id: 1, name: "Rick Sanchez", status: nil, species: nil, type: nil, gender: nil, origin: nil, location: nil, image: nil, episode: ["https://rickandmortyapi.com/api/episode/1"], url: nil, created: nil)
+        let character = Character( id: 1, name: "Rick Sanchez",
+                                   status: nil,
+                                   species: nil,
+                                   type: nil,
+                                   gender: nil,
+                                   origin: nil,
+                                   location: nil,
+                                   image: nil,
+                                   episode: ["https://rickandmortyapi.com/api/episode/1"],
+                                   url: nil,
+                                   created: nil)
         viewModel.character = character
 
         viewModel.getEpisodeID(at: 0)
@@ -73,7 +83,18 @@ final class CharacterDetailViewModelTests: XCTestCase {
     }
 
     func testGetEpisodeIDFailure() {
-        let character = Character( id: 1, name: "Rick Sanchez", status: nil, species: nil, type: nil, gender: nil, origin: nil, location: nil, image: nil, episode: [], url: nil, created: nil)
+        let character = Character( id: 1,
+                                   name: "Rick Sanchez",
+                                   status: nil,
+                                   species: nil,
+                                   type: nil,
+                                   gender: nil,
+                                   origin: nil,
+                                   location: nil,
+                                   image: nil,
+                                   episode: [],
+                                   url: nil,
+                                   created: nil)
         viewModel.character = character
 
         viewModel.getEpisodeID(at: 0)

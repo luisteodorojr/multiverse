@@ -62,8 +62,30 @@ final class CharacterViewModelTests: XCTestCase {
     
     func testSelectCharacter() {
         let mockCharacters = [
-            Character(id: 1, name: "Rick Sanchez", status: "Human", species: nil, type: nil, gender: nil, origin: nil, location: nil, image: nil, episode: nil, url: nil, created: nil),
-            Character(id: 2, name: "Morty Smith", status: "Human", species: nil, type: nil, gender: nil, origin: nil, location: nil, image: nil, episode: nil, url: nil, created: nil)
+            Character(id: 1,
+                      name: "Rick Sanchez",
+                      status: "Human",
+                      species: nil,
+                      type: nil,
+                      gender: nil,
+                      origin: nil,
+                      location: nil,
+                      image: nil,
+                      episode: nil,
+                      url: nil,
+                      created: nil),
+            Character(id: 2,
+                      name: "Morty Smith",
+                      status: "Human",
+                      species: nil,
+                      type: nil,
+                      gender: nil,
+                      origin: nil,
+                      location: nil,
+                      image: nil,
+                      episode: nil,
+                      url: nil,
+                      created: nil)
         ]
         viewModel.allCharacters = mockCharacters
 
@@ -99,7 +121,7 @@ final class CharacterViewModelTests: XCTestCase {
 
         let expectation = self.expectation(description: "No API Call Expected")
 
-        let mockDelegate = MockCharacterViewModelDelegate { characters, error in
+        let mockDelegate = MockCharacterViewModelDelegate { _, _ in
             XCTFail("Não deveria haver atualizações ou erros, pois todas as páginas já foram carregadas")
         }
 

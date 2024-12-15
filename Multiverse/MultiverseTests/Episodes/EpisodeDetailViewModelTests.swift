@@ -38,8 +38,30 @@ final class EpisodeDetailViewModelTests: XCTestCase {
     
     func testSelectCharacter() {
         let mockCharacters = [
-            Character(id: 1, name: "Rick Sanchez", status: "Human", species: nil, type: nil, gender: nil, origin: nil, location: nil, image: nil, episode: nil, url: nil, created: nil),
-            Character(id: 2, name: "Morty Smith", status: "Human", species: nil, type: nil, gender: nil, origin: nil, location: nil, image: nil, episode: nil, url: nil, created: nil)
+            Character(id: 1,
+                      name: "Rick Sanchez",
+                      status: "Human",
+                      species: nil,
+                      type: nil,
+                      gender: nil,
+                      origin: nil,
+                      location: nil,
+                      image: nil,
+                      episode: nil,
+                      url: nil,
+                      created: nil),
+            Character(id: 2,
+                      name: "Morty Smith",
+                      status: "Human",
+                      species: nil,
+                      type: nil,
+                      gender: nil,
+                      origin: nil,
+                      location: nil,
+                      image: nil,
+                      episode: nil,
+                      url: nil,
+                      created: nil)
         ]
         viewModel.characters = mockCharacters
         
@@ -87,7 +109,13 @@ final class EpisodeDetailViewModelTests: XCTestCase {
             expectation.fulfill()
         }
         
-        viewModel.episodeDetail = Episode(id: 1, name: "Pilot", airDate: "December 2, 2013", episode: "S01E01", characters: ["https://rickandmortyapi.com/api/character/2"], url: nil, created: nil)
+        viewModel.episodeDetail = Episode(id: 1,
+                                          name: "Pilot",
+                                          airDate: "December 2, 2013",
+                                          episode: "S01E01",
+                                          characters: ["https://rickandmortyapi.com/api/character/2"],
+                                          url: nil,
+                                          created: nil)
         
         viewModel.fetchEpisodeCharacters()
         
@@ -103,7 +131,13 @@ final class EpisodeDetailViewModelTests: XCTestCase {
             expectation.fulfill()
         }
 
-        viewModel.episodeDetail = Episode(id: 1, name: "Pilot", airDate: "December 2, 2013", episode: "S01E01", characters: ["https://rickandmortyapi.com/api/character/2"], url: nil, created: nil)
+        viewModel.episodeDetail = Episode(id: 1,
+                                          name: "Pilot",
+                                          airDate: "December 2, 2013",
+                                          episode: "S01E01",
+                                          characters: ["https://rickandmortyapi.com/api/character/2"],
+                                          url: nil,
+                                          created: nil)
         
         viewModel.fetchEpisodeCharacters()
         waitForExpectations(timeout: 2)

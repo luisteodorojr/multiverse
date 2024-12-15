@@ -100,8 +100,30 @@ final class LocationDetailViewModelTests: XCTestCase {
     
     func testSelectResident() {
         let mockResidents = [
-            Character(id: 1, name: "Rick Sanchez", status: "Alive", species: "Human", type: nil, gender: "Male", origin: nil, location: nil, image: nil, episode: nil, url: nil, created: nil),
-            Character(id: 2, name: "Morty Smith", status: "Alive", species: "Human", type: nil, gender: "Male", origin: nil, location: nil, image: nil, episode: nil, url: nil, created: nil)
+            Character(id: 1,
+                      name: "Rick Sanchez",
+                      status: "Alive",
+                      species: "Human",
+                      type: nil,
+                      gender: "Male",
+                      origin: nil,
+                      location: nil,
+                      image: nil,
+                      episode: nil,
+                      url: nil,
+                      created: nil),
+            Character(id: 2,
+                      name: "Morty Smith",
+                      status: "Alive",
+                      species: "Human",
+                      type: nil,
+                      gender: "Male",
+                      origin: nil,
+                      location: nil,
+                      image: nil,
+                      episode: nil,
+                      url: nil,
+                      created: nil)
         ]
         viewModel.residents = mockResidents
         

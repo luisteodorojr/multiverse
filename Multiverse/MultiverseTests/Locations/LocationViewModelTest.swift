@@ -99,7 +99,7 @@ final class LocationViewModelTests: XCTestCase {
 
         let expectation = self.expectation(description: "No API Call Expected")
 
-        let mockDelegate = MockLocationViewModelDelegate { locations, error in
+        let mockDelegate = MockLocationViewModelDelegate { _, _ in
             XCTFail("Não deveria haver atualizações ou erros, pois todas as páginas já foram carregadas")
         }
 

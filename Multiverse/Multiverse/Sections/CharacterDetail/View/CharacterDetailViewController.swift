@@ -146,7 +146,6 @@ extension CharacterDetailViewController: UITableViewDataSource, UITableViewDeleg
         viewModel.getEpisodeID(at: indexPath.row)
     }
 
-    
     private func extractEpisodeNumber(from url: String) -> String {
         return url.components(separatedBy: "/").last ?? "Unknown"
     }

@@ -80,7 +80,7 @@ class LocationTableViewCell: UITableViewCell {
             actionImageView.trailingAnchor.constraint(equalTo: cardView.trailingAnchor, constant: -.defaultMargin),
             actionImageView.centerYAnchor.constraint(equalTo: cardView.centerYAnchor),
             actionImageView.widthAnchor.constraint(equalToConstant: .defaultIconSize),
-            actionImageView.heightAnchor.constraint(equalToConstant: .defaultIconSize),
+            actionImageView.heightAnchor.constraint(equalToConstant: .defaultIconSize)
         ])
     }
     
