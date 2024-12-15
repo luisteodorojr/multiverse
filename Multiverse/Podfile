@@ -7,7 +7,8 @@ target 'Multiverse' do
   # Pods for Multiverse
 
   pod 'SDWebImage'
-  
+  pod 'SwiftLint'
+
   target 'MultiverseTests' do
     inherit! :search_paths
     # Pods for testing
