@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C0847A57E5D7E5404FD2DBF /* Pods_MultiverseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51746E676351D4F55F3B6480 /* Pods_MultiverseTests.framework */; };
+		4AF9CF25540E41DAB732989B /* Pods_Multiverse_MultiverseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E32606A39272C43820B6D1 /* Pods_Multiverse_MultiverseUITests.framework */; };
+		702DA6129D9C0FF2CB8E3749 /* Pods_Multiverse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB90A6BC4CBF16B62E2D01CE /* Pods_Multiverse.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D840C0612D0C48100030C400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D840C0422D0C480E0030C400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D840C0492D0C480E0030C400;
+			remoteInfo = Multiverse;
+		};
+		D840C06B2D0C48120030C400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D840C0422D0C480E0030C400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D840C0492D0C480E0030C400;
+			remoteInfo = Multiverse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E32606A39272C43820B6D1 /* Pods_Multiverse_MultiverseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiverse_MultiverseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0E85A1BC29E3797ED10855 /* Pods-Multiverse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiverse.release.xcconfig"; path = "Target Support Files/Pods-Multiverse/Pods-Multiverse.release.xcconfig"; sourceTree = "<group>"; };
+		51746E676351D4F55F3B6480 /* Pods_MultiverseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiverseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D854BAD9D17E1D07311FAEE /* Pods-MultiverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiverseTests.debug.xcconfig"; path = "Target Support Files/Pods-MultiverseTests/Pods-MultiverseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D862B2086397B380855C798 /* Pods-Multiverse-MultiverseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiverse-MultiverseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Multiverse-MultiverseUITests/Pods-Multiverse-MultiverseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB3B5049B1FCF1C10232B9FA /* Pods-Multiverse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiverse.debug.xcconfig"; path = "Target Support Files/Pods-Multiverse/Pods-Multiverse.debug.xcconfig"; sourceTree = "<group>"; };
+		D840C04A2D0C480E0030C400 /* Multiverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multiverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D840C0602D0C48100030C400 /* MultiverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D840C06A2D0C48120030C400 /* MultiverseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiverseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB90A6BC4CBF16B62E2D01CE /* Pods_Multiverse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiverse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6A567BECB370E1EA8DCEEC /* Pods-MultiverseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiverseTests.release.xcconfig"; path = "Target Support Files/Pods-MultiverseTests/Pods-MultiverseTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE53B544A38D1F422C13BBDD /* Pods-Multiverse-MultiverseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiverse-MultiverseUITests.release.xcconfig"; path = "Target Support Files/Pods-Multiverse-MultiverseUITests/Pods-Multiverse-MultiverseUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D840C0722D0C48120030C400 /* Exceptions for "Multiverse" folder in "Multiverse" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Supporting Files/Info.plist",
+			);
+			target = D840C0492D0C480E0030C400 /* Multiverse */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D840C04C2D0C480E0030C400 /* Multiverse */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D840C0722D0C48120030C400 /* Exceptions for "Multiverse" folder in "Multiverse" target */,
+			);
+			path = Multiverse;
+			sourceTree = "<group>";
+		};
+		D840C0632D0C48110030C400 /* MultiverseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MultiverseTests;
+			sourceTree = "<group>";
+		};
+		D840C06D2D0C48120030C400 /* MultiverseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MultiverseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D840C0472D0C480E0030C400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702DA6129D9C0FF2CB8E3749 /* Pods_Multiverse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D840C05D2D0C48100030C400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0847A57E5D7E5404FD2DBF /* Pods_MultiverseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D840C0672D0C48120030C400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF9CF25540E41DAB732989B /* Pods_Multiverse_MultiverseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025A5895398B7570ED56E8D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB90A6BC4CBF16B62E2D01CE /* Pods_Multiverse.framework */,
+				14E32606A39272C43820B6D1 /* Pods_Multiverse_MultiverseUITests.framework */,
+				51746E676351D4F55F3B6480 /* Pods_MultiverseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D840C0412D0C480E0030C400 = {
+			isa = PBXGroup;
+			children = (
+				D840C04C2D0C480E0030C400 /* Multiverse */,
+				D840C0632D0C48110030C400 /* MultiverseTests */,
+				D840C06D2D0C48120030C400 /* MultiverseUITests */,
+				D840C04B2D0C480E0030C400 /* Products */,
+				EFBE65F0B8EE583F674A2716 /* Pods */,
+				025A5895398B7570ED56E8D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D840C04B2D0C480E0030C400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D840C04A2D0C480E0030C400 /* Multiverse.app */,
+				D840C0602D0C48100030C400 /* MultiverseTests.xctest */,
+				D840C06A2D0C48120030C400 /* MultiverseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBE65F0B8EE583F674A2716 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B5049B1FCF1C10232B9FA /* Pods-Multiverse.debug.xcconfig */,
+				2D0E85A1BC29E3797ED10855 /* Pods-Multiverse.release.xcconfig */,
+				8D862B2086397B380855C798 /* Pods-Multiverse-MultiverseUITests.debug.xcconfig */,
+				EE53B544A38D1F422C13BBDD /* Pods-Multiverse-MultiverseUITests.release.xcconfig */,
+				6D854BAD9D17E1D07311FAEE /* Pods-MultiverseTests.debug.xcconfig */,
+				EB6A567BECB370E1EA8DCEEC /* Pods-MultiverseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D840C0492D0C480E0030C400 /* Multiverse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D840C0732D0C48120030C400 /* Build configuration list for PBXNativeTarget "Multiverse" */;
+			buildPhases = (
+				107D84A509C0A114D46AA18A /* [CP] Check Pods Manifest.lock */,
+				D840C0462D0C480E0030C400 /* Sources */,
+				D840C0472D0C480E0030C400 /* Frameworks */,
+				D840C0482D0C480E0030C400 /* Resources */,
+				734240E39D0155EC8B1C1EF0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D840C04C2D0C480E0030C400 /* Multiverse */,
+			);
+			name = Multiverse;
+			productName = Multiverse;
+			productReference = D840C04A2D0C480E0030C400 /* Multiverse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D840C05F2D0C48100030C400 /* MultiverseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D840C0782D0C48120030C400 /* Build configuration list for PBXNativeTarget "MultiverseTests" */;
+			buildPhases = (
+				9E9630C5E0C3A575E1C0985F /* [CP] Check Pods Manifest.lock */,
+				D840C05C2D0C48100030C400 /* Sources */,
+				D840C05D2D0C48100030C400 /* Frameworks */,
+				D840C05E2D0C48100030C400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D840C0622D0C48100030C400 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D840C0632D0C48110030C400 /* MultiverseTests */,
+			);
+			name = MultiverseTests;
+			productName = MultiverseTests;
+			productReference = D840C0602D0C48100030C400 /* MultiverseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D840C0692D0C48120030C400 /* MultiverseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D840C07B2D0C48120030C400 /* Build configuration list for PBXNativeTarget "MultiverseUITests" */;
+			buildPhases = (
+				97F6A2DDCA25343966835FC4 /* [CP] Check Pods Manifest.lock */,
+				D840C0662D0C48120030C400 /* Sources */,
+				D840C0672D0C48120030C400 /* Frameworks */,
+				D840C0682D0C48120030C400 /* Resources */,
+				0F149654B2D70D9C56CC01D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D840C06C2D0C48120030C400 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D840C06D2D0C48120030C400 /* MultiverseUITests */,
+			);
+			name = MultiverseUITests;
+			productName = MultiverseUITests;
+			productReference = D840C06A2D0C48120030C400 /* MultiverseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D840C0422D0C480E0030C400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D840C0492D0C480E0030C400 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D840C05F2D0C48100030C400 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D840C0492D0C480E0030C400;
+					};
+					D840C0692D0C48120030C400 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D840C0492D0C480E0030C400;
+					};
+				};
+			};
+			buildConfigurationList = D840C0452D0C480E0030C400 /* Build configuration list for PBXProject "Multiverse" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D840C0412D0C480E0030C400;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D840C04B2D0C480E0030C400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D840C0492D0C480E0030C400 /* Multiverse */,
+				D840C05F2D0C48100030C400 /* MultiverseTests */,
+				D840C0692D0C48120030C400 /* MultiverseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D840C0482D0C480E0030C400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D840C05E2D0C48100030C400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D840C0682D0C48120030C400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F149654B2D70D9C56CC01D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multiverse-MultiverseUITests/Pods-Multiverse-MultiverseUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multiverse-MultiverseUITests/Pods-Multiverse-MultiverseUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Multiverse-MultiverseUITests/Pods-Multiverse-MultiverseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		107D84A509C0A114D46AA18A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multiverse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		734240E39D0155EC8B1C1EF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multiverse/Pods-Multiverse-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multiverse/Pods-Multiverse-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Multiverse/Pods-Multiverse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F6A2DDCA25343966835FC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multiverse-MultiverseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E9630C5E0C3A575E1C0985F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiverseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D840C0462D0C480E0030C400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D840C05C2D0C48100030C400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D840C0662D0C48120030C400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D840C0622D0C48100030C400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D840C0492D0C480E0030C400 /* Multiverse */;
+			targetProxy = D840C0612D0C48100030C400 /* PBXContainerItemProxy */;
+		};
+		D840C06C2D0C48120030C400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D840C0492D0C480E0030C400 /* Multiverse */;
+			targetProxy = D840C06B2D0C48120030C400 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D840C0742D0C48120030C400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3B5049B1FCF1C10232B9FA /* Pods-Multiverse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iOS Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36PR977MXC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Pods",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Multiverse/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.multiverse.Multiverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D840C0752D0C48120030C400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0E85A1BC29E3797ED10855 /* Pods-Multiverse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iOS Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36PR977MXC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Pods",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Multiverse/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.multiverse.Multiverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D840C0762D0C48120030C400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D840C0772D0C48120030C400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D840C0792D0C48120030C400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D854BAD9D17E1D07311FAEE /* Pods-MultiverseTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36PR977MXC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.multiverse.MultiverseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiverse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Multiverse";
+			};
+			name = Debug;
+		};
+		D840C07A2D0C48120030C400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6A567BECB370E1EA8DCEEC /* Pods-MultiverseTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36PR977MXC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.multiverse.MultiverseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiverse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Multiverse";
+			};
+			name = Release;
+		};
+		D840C07C2D0C48120030C400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D862B2086397B380855C798 /* Pods-Multiverse-MultiverseUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36PR977MXC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.multiverse.MultiverseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Multiverse;
+			};
+			name = Debug;
+		};
+		D840C07D2D0C48120030C400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE53B544A38D1F422C13BBDD /* Pods-Multiverse-MultiverseUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36PR977MXC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.multiverse.MultiverseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Multiverse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D840C0452D0C480E0030C400 /* Build configuration list for PBXProject "Multiverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D840C0762D0C48120030C400 /* Debug */,
+				D840C0772D0C48120030C400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D840C0732D0C48120030C400 /* Build configuration list for PBXNativeTarget "Multiverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D840C0742D0C48120030C400 /* Debug */,
+				D840C0752D0C48120030C400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D840C0782D0C48120030C400 /* Build configuration list for PBXNativeTarget "MultiverseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D840C0792D0C48120030C400 /* Debug */,
+				D840C07A2D0C48120030C400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D840C07B2D0C48120030C400 /* Build configuration list for PBXNativeTarget "MultiverseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D840C07C2D0C48120030C400 /* Debug */,
+				D840C07D2D0C48120030C400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D840C0422D0C480E0030C400 /* Project object */;
+}
