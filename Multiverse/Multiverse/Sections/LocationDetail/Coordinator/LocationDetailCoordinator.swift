@@ -25,6 +25,7 @@ final class LocationDetailCoordinator: Coordinator {
         viewModel.coordinatorDelegate = self
         let viewController = LocationDetailViewController(viewModel: viewModel)
         viewModel.coordinatorDelegate = self
+        viewController.hidesBottomBarWhenPushed = true
         navigationController.pushViewController(viewController, animated: true)
     }
     

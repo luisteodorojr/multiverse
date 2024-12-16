@@ -100,7 +100,7 @@ extension LocationDetailViewController: UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 1:
-            return "Resisdentes"
+            return "Residents"
         default:
             return nil
         }
