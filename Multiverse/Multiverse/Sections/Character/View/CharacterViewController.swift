@@ -1,4 +1,10 @@
-// CharacterViewController.swift
+//
+//  CharacterViewController.swift
+//  Multiverse
+//
+//  Created by Luis Teodoro on 12/12/24.
+//
+
 import UIKit
 
 class CharacterViewController: BaseViewController {

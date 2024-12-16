@@ -11,11 +11,12 @@ final class EpisodesViewController: BaseViewController {
     private let viewModel: EpisodesViewModel
     
     private lazy var tableView: UITableView = {
-        let tableView = UITableView(frame: .zero, style: .grouped)
+        let tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(EpisodesCardTableViewCell.self, forCellReuseIdentifier: "EpisodeCell")
+        tableView.separatorStyle = .none
         return tableView
     }()
     

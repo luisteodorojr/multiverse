@@ -27,8 +27,8 @@ class TabBarCoordinator: Coordinator {
         characterCoordinator.start()
         characterNavigationController.tabBarItem = UITabBarItem(
             title: "Personagens",
-            image: UIImage(systemName: "person.3"),
-            selectedImage: UIImage(systemName: "person.3.fill")
+            image: UIImage(systemName: "person.2"),
+            selectedImage: UIImage(systemName: "person.2.fill")
         )
         
         let locationNavigationController = UINavigationController()
@@ -69,26 +69,15 @@ class TabBarCoordinator: Coordinator {
     }
 
     private func setupTabBarAppearance() {
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [
-            UIColor(red: 0.25, green: 0.75, blue: 0.85, alpha: 1.0).cgColor,
-            UIColor(red: 0.67, green: 0.87, blue: 0.31, alpha: 1.0).cgColor
-        ]
-        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
-        gradientLayer.endPoint = CGPoint(x: 1, y: 1)
-        gradientLayer.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 49)
+        // Define as cores
+        let backgroundColor = UIColor(white: 0.95, alpha: 1.0) // Cinza claro
+        let selectedColor = UIColor.darkGray // Cinza escuro ao clicar
+        let normalColor = UIColor.gray // Cinza normal para não selecionado
 
-        UIGraphicsBeginImageContext(gradientLayer.frame.size)
-        gradientLayer.render(in: UIGraphicsGetCurrentContext()!)
-        let gradientImage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-
+        // Configuração da aparência da tab bar
         let appearance = UITabBarAppearance()
         appearance.configureWithOpaqueBackground()
-        appearance.backgroundImage = gradientImage
-
-        let selectedColor = UIColor.white
-        let normalColor = UIColor.lightGray
+        appearance.backgroundColor = backgroundColor // Fundo cinza claro
 
         appearance.stackedLayoutAppearance.selected.iconColor = selectedColor
         appearance.stackedLayoutAppearance.selected.titleTextAttributes = [
