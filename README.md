@@ -7,7 +7,7 @@
 
 ## 📹 Demonstração
 
-<video src="Multiverse/Assets/Videos/ScreenRecording.mp4" controls width="600"></video>
+[📽️ Clique aqui para assistir ao vídeo](Multiverse/Assets/Videos/ScreenRecording.mp4)
 
 ---
 
