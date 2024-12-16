@@ -11,7 +11,7 @@ final class CharacterDetailViewController: BaseViewController {
     
     private let viewModel: CharacterDetailViewModel
     private lazy var tableView: UITableView = {
-        let tableView = UITableView(frame: .zero, style: .grouped)
+        let tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.delegate = self
         tableView.dataSource = self

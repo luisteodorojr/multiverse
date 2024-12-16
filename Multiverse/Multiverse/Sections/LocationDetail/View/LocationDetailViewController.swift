@@ -12,7 +12,7 @@ final class LocationDetailViewController: BaseViewController {
     private let viewModel: LocationDetailViewModel
     
     private lazy var tableView: UITableView = {
-        let tableView = UITableView(frame: .zero, style: .grouped)
+        let tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.delegate = self
         tableView.dataSource = self
