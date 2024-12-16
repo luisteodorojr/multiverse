@@ -1,3 +1,4 @@
+
 # Multiverse
 
 **Multiverse** é um aplicativo iOS desenvolvido com Swift, utilizando a [Rick and Morty API](https://rickandmortyapi.com/) para listar e exibir detalhes de personagens, episódios e locais da série **Rick and Morty**.
@@ -7,6 +8,7 @@
 ## 🛠️ Tecnologias Utilizadas
 
 - **Swift**: Linguagem principal do desenvolvimento do aplicativo.
+- **View Code**: Abordagem utilizada para desenvolvimento das telas, eliminando o uso de storyboards.
 - **CocoaPods**: Gerenciador de dependências para integrar bibliotecas de terceiros.
 - **Bibliotecas Utilizadas**:
   - [**SDWebImage**](https://github.com/SDWebImage/SDWebImage): Para carregamento e cache de imagens de forma assíncrona.
@@ -100,7 +102,7 @@ Certifique-se de ter os seguintes itens instalados:
 O projeto utiliza a arquitetura **MVVM-C (Model-View-ViewModel-Coordinator)**, que oferece uma separação clara de responsabilidades e facilita a escalabilidade do aplicativo.
 
 - **Model**: Representa os dados do aplicativo e suas regras de negócio (ex.: Character, Location, Episode).
-- **View**: Responsável pela interface do usuário (ex.: Storyboards, ViewControllers).
+- **View**: Responsável pela interface do usuário (ex.: ViewControllers com View Code).
 - **ViewModel**: Intermediário entre o Model e a View, lidando com a lógica de apresentação.
 - **Coordinator**: Gerencia a navegação entre telas e o fluxo do aplicativo, garantindo uma abordagem centralizada e modular.
 
@@ -189,6 +191,12 @@ MultiverseTests/
 
 - **Filtros**:
   - Adicionar a possibilidade de filtrar os personagens por status, espécie ou outros atributos.
+
+- **Splash Screen**:
+  - Criar uma tela de splash para melhorar a experiência inicial do usuário.
+
+- **XcodeGen**:
+  - Automatizar a geração dos arquivos de projeto do Xcode.
 
 ---
 
